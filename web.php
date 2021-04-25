@@ -25,5 +25,5 @@ Route::group(['prefix' => 'admin'], function() {
 //4
 Route::group(['prefix' => 'admin'], function() {
     Route::get('profile/create', 'Admin\ProfileController@add');
-    Route::get('profile/edit', 'Adomin\ProfileController@edit');
+    Route::get('profile/edit', 'Admin\ProfileController@edit');
 });
